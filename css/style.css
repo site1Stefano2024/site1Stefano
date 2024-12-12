@@ -1,10 +1,4 @@
-/******* Bootstrap Theming ********/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -158,7 +152,7 @@ a {
 }
 
 a:hover {
-  color: #223ad2;
+  color: #dc3545;
   text-decoration: underline;
 }
 
@@ -2371,12 +2365,12 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #1a2c54;
-  background-color: #223ad2;
-  border-color: #223ad2;
+  background-color: #dc3545;
+  border-color: #dc3545;
 }
 
 .btn-primary:hover {
-  color: #223ad2;
+  color: #dc3545;
   background-color: #1a2c54;
   border-color: #1a2c54;
 }
@@ -2631,11 +2625,11 @@ fieldset:disabled a.btn {
 .btn-dark {
   color: #1a2c54;
   background-color: #ed364b48;
-  border-color: #223ad2;
+  border-color: #dc3545;
 }
 
 .btn-dark:hover {
-  color: #223ad2;
+  color: #dc3545;
   background-color: #1a2c54;
   border-color: #1a2c54;
 }
@@ -9525,7 +9519,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #223ad2 !important;
+  color: #dc3545 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9772,7 +9766,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #223ad2;
+  color: #dc3545;
 }
 
 @media (max-width: 991.98px) {
@@ -9811,13 +9805,13 @@ h6,
   width: 25px;
   height: 25px;
   margin: 5px 0;
-  background: #223ad2;
+  background: #dc3545;
   border: 5px solid #FFFFFF;
   border-radius: 25px;
 }
 
 .carousel-indicators .active {
-  background: #223ad2;
+  background: #dc3545;
 }
 
 @media (max-width: 991.98px) {
